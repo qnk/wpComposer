@@ -16,6 +16,7 @@
             "wpackagist-plugin/akismet": "*",
             "yoast/wordpress-seo": "*",
             "wpackagist-plugin/woocommerce": "*",
+            "johnbillion/query-monitor": "*",
             "wpackagist-theme/evolve": "*"
         },
         "extra": {
