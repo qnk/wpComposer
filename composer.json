@@ -1,0 +1,32 @@
+    {
+        "_explanation": [
+            "https://roots.io/using-composer-with-wordpress/",
+            {"how to work with different dev envs": "https://deliciousbrains.com/install-wordpress-subdirectory-composer-git-submodule/"}
+        ],
+        "repositories": [
+            {
+                "type": "composer",
+                "url": "http://wpackagist.org"
+            }
+        ],
+        "require": {
+            "php": ">=5.4",
+            "composer/installers": "1.*",
+            "johnpbloch/wordpress": "*",
+            "wpackagist-plugin/akismet": "3.1.1",
+            "wpackagist-plugin/woocommerce": "*",
+            "wpackagist-theme/evolve": "*"
+        },
+        "extra": {
+            "wordpress-install-dir": "wp",
+            "installer-paths": {
+                "wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+                "wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+                "wp-content/themes/{$name}/": ["type:wordpress-theme"]
+            }
+        },
+        "_not-on-wpackagist": [
+            "https://es.wordpress.org/plugins/advanced-custom-fields/",
+            "https://yoast.com/wordpress/plugins/seo/"
+        ]
+    }
