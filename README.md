@@ -13,3 +13,10 @@ Fresh WP repo to install with Composer.
 2. Run composer.json
 
 3. Remember to upload wp-config including the theme path
+
+##More info
+
+With this config, paths are:
+
+Front page: localhost/name_of_the_project
+Backend: localhost/name_of_the_project/wp/wp-admin
