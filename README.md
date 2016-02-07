@@ -1,7 +1,7 @@
 # wpComposer
 Fresh WP repo to install with Composer.
 
-##Hot to instal
+##Hot to install
 
 1. Crete the following structure:
   - wp/
